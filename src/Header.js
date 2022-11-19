@@ -31,6 +31,7 @@ const hidemenu=()=>{
 return(
 
 <>
+
 <header>
 <div className="logo"><a href=""> <img src ="./images/mobile.jpg"/></a></div>
 
