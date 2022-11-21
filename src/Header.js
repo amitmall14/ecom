@@ -33,7 +33,7 @@ return(
 <>
 
 <header>
-<div className="logo"><a href=""> <img src ="./images/mobile.jpg"/></a></div>
+<div className="logo"><a href=""></a></div>
 
 <nav className={ currentvalue ? "shownav":"hidenav"}>
 
