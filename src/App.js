@@ -18,19 +18,7 @@ function App() {
           
             <Route  exact path= "/about" element= {<About />} /> 
             <Route  exact path= "/" element= {<HomePage />} /> 
-            {/* <Route path="*" element={<NoPage />} /> 
-
-            load Error page
-
-
-            */
-
-          }
-
-        {/*Redirect to the another Page*/}
-             <Route exact path ="*" element= {<Navigate to="/"replace={true} />} />
-
-             <Route  exact path= "/home" element= {<HomePage />} />      
+            <Route  exact path= "/home" element= {<Home />} />      
           </Routes>
         </BrowserRouter>
    
