@@ -31,13 +31,13 @@ const hidemenu=()=>{
 return(
 
 <>
-
 <header>
-<div className="logo"><a href=""></a></div>
+<div className="header-main">
+<div className="logo"><img src="./images/mobile.jpg"/></div>
 
 <nav className={ currentvalue ? "shownav":"hidenav"}>
 
-<ul >
+<ul>
 <li><NavLink to ="/">Home</NavLink></li>
 <li><NavLink to="/about">About Us</NavLink></li>
 <li><NavLink>Services</NavLink></li>
@@ -48,6 +48,7 @@ return(
 <div className="menu-btn">
 <HiMenu onClick={menu} className={ currentvalue ? "hidenav":"shownav"}/>
 <AiOutlineClose onClick={hidemenu} className={ currentvalue ? "shownav":"hidenav"}/>
+</div>
 </div>
 </header>
 </>

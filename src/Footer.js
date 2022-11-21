@@ -7,7 +7,10 @@ import React from 'react';
 
 return(
 
-<h2>Footer</h2>
+<footer>© 2022 Amit Mall <br/><br/>
+
+Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site.
+</footer>
 
 
 

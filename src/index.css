@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.moble img{
+height: 200px;
+width:300px;
+
+}
+
+.logo img{
+height: 50px;
+width: 100px;
+}
+.banner{
+ height: 300px;
+ width:100%;
+ object-position:center;
+  object-fit:cover 
+}
+footer {
+  text-align: center;
+  background: #8080801f;
+    padding: 40px;
+}
+header{
+
+    
+    border-bottom:3px solid grey;
+
+}
+.header-main{
+  margin: 0 20px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+
+display: flex;
+margin: 0;
+padding: 0;
+}
+nav ul a{
+  text-decoration: none;
+
+}
+nav ul li{
+list-style: none;
+padding: 10px;
+
+
+}
+
+.menu-btn{
+display: none;
+}
+.main form {
+      display: grid;
+    width: fit-content;
+    margin-left: 30em;
+
+}
+
+
+
+
+.flex-class{
+
+display: flex;
+justify-content:space-around;
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .menu-btn {
+    display: block;
+  }
+nav{
+display: none;
+
+}
+.shownav{
+display: block;
+
+}
+
+.hidenav{
+display: none;
+
+}
+
+.moble img{
+
+
+opacity: 0.5;
+
+
+}
+
+
+
+
+
+.menu-btn{
+display: flex;
+}
+
+nav ul{
+  display: grid;
+  margin: 0;
+  height: 0;
+  
+
+
+
+}
+
+
+
+}
+
+
