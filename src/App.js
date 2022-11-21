@@ -15,21 +15,8 @@ function App() {
     <>
       <BrowserRouter>
           <Routes>  
-          <Route  exact path= "/bootstrap" element= {<Bootstrap />} /> 
-          <Route  exact path= "/matarialui" element= {<Matarialui />} /> 
-         
-            
-            <Route  exact path= "/www" element= {<Routdd />} /> 
-             <Route  exact path= "/pnr" element= {<Pnr />} />   
-            <Route  exact path= "/login" element= {<Login name="amit" color="green"/>} /> 
-             <Route  exact path= "/signup" element= {<Login />} /> 
-            <Route  exact path= "/time" element= {<Timee />} />   
-            <Route  exact path= "/todo" element= {<Todo />} />  
-            <Route  exact path= "/fav" element= {<Fav />} />  
-            <Route  exact path= "/todo" element= {<Todo />} /> 
-            <Route  exact path= "/todoo" element= {<Todoo />} /> 
-            <Route  exact path= "/dressinfo" element= {<Dressinfo />} /> 
-            <Route  exact path= "/fib" element= {<Fib />} /> 
+          
+            <Route  exact path= "/about" element= {<About />} /> 
             <Route  exact path= "/" element= {<HomePage />} /> 
             {/* <Route path="*" element={<NoPage />} /> 
 
