@@ -15,10 +15,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          
           <Route exact path="/about" element={<About />} />
           <Route exact path="/Contactus" element={<Contactus />} />
-          </Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
       </BrowserRouter>
    
     </>
