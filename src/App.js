@@ -14,12 +14,12 @@ function App() {
   return(
     <>
       <BrowserRouter>
-          <Routes>  
-          
-            <Route  exact path= "/about" element= {<About />} /> 
-            <Route  exact path= "/home" element= {<Home />} />      
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/Contactus" element={<Contactus />} />
+        </Routes>
+      </BrowserRouter>
    
     </>
     
