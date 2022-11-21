@@ -32,7 +32,7 @@ return(
 
 	<div className= "moble">
 
-	<a href=""> <img src ="./images/mobile.jpg"/></a>
+	<a href=""> <img src =""></a>
 	</div>
 	</div>
 </>
