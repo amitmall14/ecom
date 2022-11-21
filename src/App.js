@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route ,Link, Navigate } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import './index.css';
-import  Ecom from './Ecom.js';
 import  Home from './Home.js';
 import  About from './About.js';
 import  Contactus from './Contactus.js';
@@ -20,6 +19,8 @@ function App() {
           <Route exact path="/ecom" element={<Home />} />
           <Route exact path="/Contactus" element={<Contactus />} />
           <Route exact path="/" element={<Home />} />
+          <Route exact path ="*" element= {<Navigate to="/"replace={true} />} />
+          <Route  exact path= "/home" element= {<Home />} />      
         </Routes>
       </BrowserRouter>
    
