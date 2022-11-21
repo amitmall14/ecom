@@ -9,7 +9,7 @@ const Home =()=>{
 	title :"This is My Home Page",
 	description: "Home Page Description",
 
-		image:"./images/amit.jpg",
+		image:"https://img.freepik.com/premium-vector/new-laptop-sale-promotion-social-facebook-cover-banner_252779-424.jpg?w=2000",
 	price:"vklv"
 
 
